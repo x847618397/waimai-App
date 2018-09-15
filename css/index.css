@@ -306,7 +306,7 @@ nav main .icon ul li h5{
 }
 .list .content ul li .message{
 	width: 4.4rem;
-	height: 1.98rem;
+	height: 2rem;
 	float: right;
 	font-size: 0.2rem;
 	color: #585858;
@@ -369,10 +369,10 @@ nav main .icon ul li h5{
 }
 .list .content ul li .message .manjian .box{
 	width: 1.2rem;
-	height: 0.3rem;
+	height: 0.28rem;
 	font-size: 0.2rem;
 	color: #F02B25;
-	line-height: 0.3rem;
+	line-height: 0.28rem;
 	text-align: center;
 	border: 0.02rem solid #FACA70;
 	border-radius: 0.15rem;
@@ -390,22 +390,23 @@ nav main .icon ul li h5{
 	color: #F02B25;
 }
 .list .content ul li .message .special{
-	height: 0.3rem;
+	height: 0.28rem;
 	width: 4rem;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	line-height: 0.3rem;
+	line-height: 0.28rem;
 }
 .list .content ul li .message .special .box{
 	width: 1.2rem;
 	height: 0.28rem;
-	font-size: 0.2rem;
+	font-size: 0.18rem;
 	color: #F02B25;
-	line-height: 0.3rem;
+	line-height: 0.28rem;
 	text-align: center;
 	border: 0.02rem solid #FACA70;
 	border-radius: 0.15rem;
+	margin-top: 0.06rem;
 
 }
 .list .content ul li .message .special p{
