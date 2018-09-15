@@ -1,0 +1,293 @@
+*{
+	padding:0;
+	margin: 0;
+	box-sizing: border-box;
+	list-style: none;
+}
+
+    @media screen and (min-width:360px){
+	html{
+		font-size: calc(360/750*100px);
+	}
+}
+    @media screen and (min-width:375px){
+	html{
+		font-size: calc(375/750*100px);
+	}
+}
+    @media screen and (min-width:412px){
+	html{
+		font-size: calc(412/750*100px);
+	}
+}
+    @media screen and (min-width:414px){
+	html{
+		font-size: calc(414/750*100px);
+	}
+}
+    @media screen and (min-width:750px){
+	html{
+		font-size: calc(750/750*100px);
+	}
+}
+    @media screen and (min-width:768px){
+	html{
+		font-size: calc(768/750*100px);
+	}
+}
+    @media screen and (min-width:1024px){
+	html{
+		font-size: calc(1024/750*100px);
+	}
+}
+/* 顶部开始 */
+header{
+	width: 100%;
+	height: 1rem;
+	background-color: #FFDB35;
+	position: relative;
+}
+header .right{
+	height: 100%;
+	width: 1.2rem;
+	float: right;
+	line-height: 1.22rem;
+	background-image:url("../img/search1.png");
+	background-repeat: no-repeat;
+	background-size: 0.5rem 0.5rem;
+	background-position: 0.42rem center;
+}
+header .left{
+	width: calc(100% - 1.2rem);
+	height: 0.9rem;
+	line-height: 0.9rem;
+	float: left;
+}
+header .left h1{
+	height: 100%;
+	line-height: 1rem;
+	font-size: 0.38rem;
+	color: white;
+	margin-left: 2.9rem;
+	font-weight: normal;
+}
+header .left p{
+	height: 30%;
+	line-height: 0.3rem;
+	font-size: 0.32rem;
+	color: rgba(255, 255, 255, 0.5);
+	position: absolute;
+	top: 0.52rem;
+	left: 2.26rem;
+}
+/* 顶部结束 */
+
+/* 标题1开始 */
+.title1{
+	font-size: 0.25rem;
+	color: #FDB417;
+	margin-left: 0.24rem;
+	margin-top: 0.2rem;
+}
+.english1{
+	font-size: 0.25rem;
+	color:#FDB417;
+	margin-left: 0.24rem;
+	margin-top: 0.02rem;
+}
+/* 标题1结束 */
+
+
+/* 订单1 */
+.menu1{
+	width: 100%;
+	height: 3.2rem;
+	/* background: red; */
+	margin-top: 0.1rem;
+}
+.menu1 ul li{
+	height: 3.2rem;
+	width: 2.4rem;
+	background-image: url('../img/menu-background.png');
+	background-size: cover;
+	background-position: center;
+	float: left; 
+	margin-left: 0.08rem;
+/*	box-shadow: 0.02rem 0.02rem 0.05rem #FDB417; */
+}
+.menu1 ul li img{
+	width: 1.2rem;
+	height: 1.24rem;
+	margin-left: 0.6rem;
+	margin-top: 0.2rem;
+}
+.menu1 ul li .picture1{
+	width: 1.3rem;
+	height: 1rem;
+	margin-left: 0.5rem;
+	margin-top: 0.4rem;
+}
+.menu1 ul li .picture2{
+	width: 1.2rem;
+	height: 1rem;
+	margin-left: 0.6rem;
+	margin-top: 0.4rem;
+}
+.menu1 ul li h2{
+	width: 100%;
+	text-align: center;
+	font-size: 0.28rem;
+	color: black;
+	margin-top: -0.16rem;
+}
+.menu1 ul li h3{
+	width: 100%;
+	text-align: center;
+	font-size: 0.2rem;
+	color: #585858;
+	font-weight: normal;
+}
+.menu1 ul li h4{
+	width: 100%;
+	text-align: center;
+	font-size: 0.18rem;
+	color: #F5342D;
+	margin-top: 0.04rem;
+	font-weight: normal;
+}
+/* 订单1结束 */
+
+/* 标题2开始 */
+.title2{
+	font-size: 0.25rem;
+	color: #FDB417;
+	margin-left: 0.24rem;
+	margin-top: 0.2rem;
+}
+.english2{
+	font-size: 0.25rem;
+	color:#FDB417;
+	margin-left: 0.24rem;
+	margin-top: 0.02rem;
+}
+/* 标题2结束 */
+
+/* 订单2开始 */
+.menu2{
+	width: 100%;
+	height: 5.4rem;
+	/* background: red; */
+	margin-top: 0.2rem;
+}
+.menu2 ul li{
+	width: 7rem;
+	height: 1.8rem;
+	/* background: yellow; */
+	border-radius: 0.1rem;
+	box-shadow: 0 0.02rem 0.3rem #FDB417;
+	margin-left: 0.24rem;
+	margin-bottom: 0.2rem;
+}
+.menu2 ul li .img{
+	width: 2rem;
+	height: 100%;
+	border-radius: 0.1rem;
+}
+
+.menu2 ul li h2{
+	width: 3rem;
+	text-align: left;
+	font-size: 0.32rem;
+	color: black;
+	margin-left: 2.5rem;
+	margin-top: -1.8rem;
+}
+.menu2 ul li p{
+	width: 3rem;
+	text-align: left;
+	font-size: 0.24rem;
+	color: #585858;
+	margin-left: 2.5rem;
+	margin-top: 0.1rem;
+}
+.menu2 ul li h4{
+	width: 3rem;
+	text-align: left;
+	font-size: 0.2rem;
+	color: #F5342D;
+	margin-left: 2.5rem;
+	margin-top: 0.2rem;
+}
+.menu2 ul li .text{
+	width: 1.4rem;
+	height: 0.5rem;
+	border-radius: 0.25rem;
+	background-color: white;
+	box-shadow: 0.03rem 0.03rem 0.16rem #FF6A90;
+    color: #F5342D;
+    font-size: 0.22rem;
+    text-align: center;
+    margin-left: 5.3rem;
+    margin-top: -1.2rem;
+    line-height: 0.5rem;
+}
+.menu2 ul li .text2{
+	width: 1.4rem;
+	height: 0.5rem;
+	border-radius: 0.25rem;
+	background-color: white;
+	box-shadow: 0.03rem 0.03rem 0.16rem #FF6A90;
+    color: #F5342D;
+    font-size: 0.2rem;
+    text-align: center;
+    margin-left: 5.3rem;
+    margin-top: 0.15rem;
+    line-height: 0.5rem;
+}
+/* 订单2结束 */
+
+/* 标签栏开始 */
+footer{
+	width: 100%;
+	height: 1rem;
+	background-color: white;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: fixed;
+	bottom: 0;
+	margin: 0 auto;
+	border-top: 0.08rem solid #FDE0D7;
+}
+footer .icon{
+	width: 100%;
+	height: 1rem;
+}
+footer .icon ul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: space-around;
+}
+footer .icon ul li{
+	width: 0.5rem;
+	height: 0.52rem;
+	margin-top: 0.1rem;
+}
+footer .icon ul li img{
+	width: 0.5rem;
+	height: 0.52rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+footer .icon ul li h5{
+	font-size: 0.22rem;
+	font-weight: normal;
+	color: #000;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 0.04rem;
+}
+/* 标签栏结束 */

@@ -1,0 +1,353 @@
+
+
+/* 顶部开始 */
+header{
+	width: 100%;
+	height: 2.26rem;
+	background: #F9AE26;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+header .one{
+	height: 0.6rem;
+	width: 0.6rem;
+	background: white;
+	border-radius: 0.3rem;
+	float: left;
+	margin-top: 0.24rem;
+	margin-left: 0.24rem;
+	position: relative;
+}
+header .one img{
+	width: 0.32rem;
+	height: 0.32rem;
+	position: absolute;
+	top: 0.14rem;
+	left: 0.14rem;
+}
+header .two{
+	height: 0.6rem;
+	width: 0.6rem;
+	border-radius: 0.3rem;
+	float: right;
+	margin-top: 0.24rem;
+	margin-right: 0.3rem;
+	position: relative;
+}
+header .two img{
+	width: 0.5rem;
+	height: 0.5rem;
+	position: absolute;
+	top: 0.14rem;
+	left: 0.14rem;
+}
+header .mess{
+	height: 0.26rem;
+	width: 0.4rem;
+	background-color: #F33933;
+	border-radius: 0.17rem;
+	position: absolute;
+	top: 0.25rem;
+	right: 0.45rem;
+	font-size: 0.18rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.26rem;
+}
+header .title{
+	height: 0.7rem;
+	width: 1.8rem;
+	position: absolute;
+	top:0.15rem;
+	left: 2.8rem;
+	font-size: 0.34rem;
+	color: #fefdfd;
+	text-align: center;
+	line-height: 0.7rem;
+	z-index: 1;
+}
+header .english{
+	width: 3.5rem;
+	height: 0.8rem;
+	position: absolute;
+	top: 0.35rem;
+	left: 2rem;
+	color: #5DD9AF;
+	font-size: 0.3rem;
+	text-align: center;
+	line-height: 0.7rem;
+}
+header .title h1{
+	height: 100%;
+	line-height: 0.9rem;
+	font-size: 0.38rem;
+	color: white;
+	font-weight: normal;
+}
+header .english p{
+	width: 100%;
+	height: 100%;
+	line-height: 0.8rem;
+	font-size: 0.32rem;
+	text-align: center;
+	color: rgba(255, 255, 255, 0.4);
+}
+header .box{
+	height: 1.8rem;
+	width: 7.02rem;
+	background-color: white;
+	margin: 0 auto;
+	margin-top: 1.13rem;
+	overflow: hidden;
+	border-radius: 0.1rem;
+	box-shadow: 0rem 0rem 0.1rem 0.08rem rgba(255, 219, 53, 0.3);
+}
+header .box .pic{
+	height: 0.8rem;
+	width: 0.8rem;
+	/* background-color: orange; */
+	margin-left: 0.43rem;
+	margin-top: 0.38rem;
+	float: left;
+	background-image: url('../img/head.png');
+	background-position: center;
+	background-size: 100% 100%;
+}
+header .box .word{
+	height: 1.1rem;
+	width: 2.6rem;
+	/* background-color:yellow; */
+	float: left;
+	margin-top: 0.33rem;
+	margin-left: 0.2rem;
+}
+header .box .word .top{
+	height: 0.3rem;
+	width: 1.36rem;
+	/* background-color: red; */
+	font-size: 0.28rem;
+	color: #000;
+}
+header .box .word .among{
+	height: 0.28rem;
+	width: 2.2rem;
+	margin-top: 0.1rem;
+	font-size: 0.2rem;
+	color: #585858;
+}
+header .box .word .last{
+	height: 0.4rem;
+	width: 2.7rem;
+	margin-top: 0.1rem;
+	font-size: 0.2rem;
+	color: #585858;
+	line-height: 0.4rem;
+	font-weight: 400;
+}
+header .box .star{
+	height: 0.5rem;
+	width: 1.3rem;
+	float: left;
+	margin-top: 0.4rem;
+	position: relative;
+
+}
+header .box .star img{
+	height: 0.25rem;
+	width: 1.2rem;
+	position: absolute;
+	top: 0.05rem;
+}
+header .box .fen{
+	height: 0.4rem;
+	width: 0.8rem;
+	float: left;
+	margin-top: 0.4rem;
+	color: #F9AE26;
+	font-size: 0.24rem;
+	line-height: 0.4rem;
+}
+/* 顶部结束 */
+
+/* 信息开始 */
+.person-message{
+	width: 100%;
+	height: 1.5rem;
+	margin-top: 3.3rem;
+	background-color: #FCD692;
+}
+.person-message .left{
+	width: 3rem;
+	height: 1.2rem;
+	background-color: white;
+	margin-left: 0.24rem;
+	float: left;
+	margin-top: 0.15rem;
+}
+.person-message .left h2{
+	width: 3rem;
+	height: 0.6rem;
+	line-height: 0.6rem;
+	font-size: 0.32rem; 
+	color: #F33933;
+	text-align: center;
+}
+.person-message .left p{
+	width: 3rem;
+	height: 0.6rem;
+	font-size: 0.34rem; 
+	text-align: center;
+}
+.person-message .right{
+	width: 3rem;
+	height: 1.2rem;
+	background-color: white;
+	margin-right: 0.24rem;
+	float: right;
+	margin-top: 0.15rem;
+}
+.person-message .right h2{
+	width: 3rem;
+	height: 0.6rem;
+	line-height: 0.6rem;
+	font-size: 0.32rem;
+	color: #F33933; 
+	text-align: center;
+}
+.person-message .right p{
+	width: 3rem;
+	height: 0.6rem;
+	font-size: 0.34rem; 
+	text-align: center;
+}
+/* 信息结束 */
+
+/* 内容开始 */
+main{
+	width: 7.02rem;
+	height: 6rem;
+	margin:  0 auto;
+	margin-top: 0.2rem;
+}
+main .box{
+	height: 1rem;
+	width: 7.02rem;
+	/* background-color: red; */
+	margin: 0 auto;
+	border-radius: 0.15rem;
+	margin-bottom: 0.25rem;
+	box-shadow: 0.02rem 0.03rem 0.1rem rgba(255, 219, 53, 0.3);
+}
+main .box .left{
+	height: 0.67rem;
+	width: 0.67rem;
+	/* background-color: yellow; */
+	float: left;
+	margin-top: 0.15rem;
+	margin-left: 0.2rem;
+	position: relative;
+}
+main .box .left img{
+	width: 0.5rem;
+	height: 0.5rem;
+	position: absolute;
+	top: 0.08rem;
+	left: 0.08rem;
+}
+main .box .middle{
+	height: 0.73rem;
+	width: 1.9rem;
+	/* background-color: pink; */
+	float: left;
+	margin-top: 0.13rem;
+	margin-left: 0.1rem;
+}
+main .box .middle .title1{
+	height: 0.37rem;
+	width: 1.9rem;
+	/* background-color: yellow; */
+	font-size: 0.26rem;
+	color: #010101;
+}
+main .box .middle .title2{
+	height: 0.37rem;
+	width: 1.9rem;
+	/* background-color: green; */
+	font-size: 0.22rem;
+	color: rgba(0, 0, 0, 0.5);
+	line-height: 0.37rem;
+}
+main .box .right{
+	height: 0.45rem;
+	width: 0.45rem;
+	float: right;
+	background-color: #F33933;
+	margin-right: 0.24rem;
+	margin-top: 0.27rem;
+	border-radius: 0.22rem;
+	color: #fff;
+	font-size: 0.34rem;
+	text-align: center;
+	line-height: 0.4rem;
+}
+main .box .right1{
+	height: 0.34rem;
+	width: 0.5rem;
+	float: right;
+	border: 0.01rem solid #F21E51;
+	margin-right: 0.24rem;
+	margin-top: 0.27rem;
+	border-radius: 0.19rem;
+	color: #F21E51;
+	font-size: 0.2rem;
+	text-align: center;
+	line-height: 0.34rem;
+}
+
+/* 标签栏开始 */
+footer{
+	width: 100%;
+	height: 1rem;
+	background-color: white;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	margin: 0 auto;
+	border-top: 0.08rem solid #FDE0D7;
+}
+footer .icon{
+	width: 100%;
+	height: 1rem;
+}
+footer .icon ul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: space-around;
+}
+footer .icon ul li{
+	width: 0.5rem;
+	height: 0.52rem;
+	margin-top: 0.1rem;
+}
+footer .icon ul li img{
+	width: 0.5rem;
+	height: 0.52rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+footer .icon ul li h5{
+	font-size: 0.22rem;
+	font-weight: normal;
+	color: #000;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 0.04rem;
+}
+/* 标签栏结束 

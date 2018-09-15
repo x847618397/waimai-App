@@ -1,0 +1,202 @@
+/* 顶部开始 */
+header{
+	width: 100%;
+	height: 1rem;
+	background-color: #F9AE27;
+}
+header .left{
+	height: 100%;
+	width: 0.88rem;
+	float: left;
+	line-height: 1.22rem;
+	background-image:url("../img/return.png");
+	background-repeat: no-repeat;
+	background-size: 0.3rem 0.5rem;
+	background-position: 0.42em center;
+}
+header .right{
+	width: calc(100% - 0.88rem);
+	height: 0.9rem;
+	line-height: 0.9rem;
+	float: right;
+}
+header .right h1{
+	height: 100%;
+	line-height: 1rem;
+	font-size: 0.38rem;
+	color: white;
+	margin-left: 2.08rem;
+	font-weight: normal;
+}
+/* 顶部结束 */
+
+/* 主要内容开始 */
+.top{
+	width: 100%;
+	height: 6rem;
+	background: #F9AE27;
+}
+.top .container{
+	width: 100% - 0.48rem;
+	height: 0.1rem;
+	margin-left: 0.24rem;
+}
+.top .container .text1{
+	width: 100%;
+	height: 0.5rem;
+}
+.top .container .text1 .zhi{
+	width: 1.6rem;
+	height: 0.4rem;
+	color: white;
+	font-size: 0.3rem;
+	line-height: 0.4rem;
+	float: left;
+	/* float: left; */
+
+}
+.top .container .text1 .home{
+	width: 0.8rem;
+	height: 0.4rem;
+	border-radius: 0.2rem;
+	font-size: 0.2rem;
+	border: 0.01rem solid white;
+	text-align: center;
+	line-height: 0.4rem;
+	margin-left: 1.6rem;
+	color: white;
+}
+.top .container .addrees{
+	width: 100%;
+	height: 0.5rem;
+	background: #F9AE27;
+	text-align: left;
+	font-size: 0.32rem;
+	color: white;
+/* 	font-weight: bold; */
+	margin-top: 0.1rem;
+}
+.top .container .text2{
+	width: 100%;
+	height: 0.5rem;
+	color: white;
+	font-size: 0.3rem;
+	margin-top: 0.1rem;
+	/* float: left; */
+}
+.top .container .message{
+	width: 7rem;
+	height: 10.6rem;
+	background-image: url('../img/pay way-bg.png');
+	background-position: center;
+	background-size:cover;
+}
+
+
+
+/* 主体开始 */
+main{
+	height: 7.3rem;
+	width: 100%;
+	/* background: red; */
+	padding-top: 4rem;
+}
+main .content{
+	height: 6.28rem;
+	width: 7rem;
+	margin: 0 auto;
+	border-bottom-right-radius: 0.15rem;
+	border-bottom-left-radius: 0.15rem;
+	box-shadow: 0 0.02rem 0.05rem 0.01rem rgba(14, 207, 152, 0.2);
+}
+main .content .line{
+	height: 1.1rem;
+	width: 6.53rem;
+	background-image: url('../img/pay way-title2.png');
+	background-size: 4.9rem 0.5rem;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+main .content .list{
+	height: 1.2rem;
+	width: 6.5rem;
+	box-shadow: 0 0.02rem 0.2rem #BCBCBC;
+	border-radius: 0.1rem;
+	margin: 0 auto;
+	margin-bottom: 0.2rem;
+	overflow: hidden;
+}
+main .content .list .pic{
+	height:0.9rem;
+	width: 0.9rem;
+	margin-top: 0.1rem; 
+	float: left;
+}
+main .content .list .pic img{
+	height: 0.7rem;
+	width: 0.7rem;
+	display: block;
+	margin-top: 0.1rem;
+	margin-left: 0.16rem;
+}
+
+main .content .list .word{
+	height: 100%;
+	width: 4.7rem;
+	margin-left: 0.14rem;
+	margin-top: 0.25rem;
+	float: left;
+}
+main .content .list .word h2{
+	height: 0.34rem;
+	line-height: 0.34rem;
+	font-size:  0.24rem;
+	color: #585858;
+}
+main .content .list .word p{
+	height: 0.34rem;
+	line-height: 0.34rem;
+	font-size:  0.24rem;
+	color: #757575;
+}
+main .content .list .num{
+	width: 0.4rem;
+	height: 0.4rem;
+	background-color: #F9AE27;
+	border-radius: 0.2rem;
+	line-height: 0.4rem;
+	font-size: 0.22rem;
+	text-align: center;
+	color: white;
+	float: right;
+	margin-top: 0.38rem;
+	margin-right: 0.2rem;
+}
+
+main .content .btn{
+	height: 1rem;
+	width: 6.2rem;
+	background-color: #F9AE27;
+	border-radius: 0.55rem;
+	border: 2px solid white;
+	box-shadow: 0 0 0.2rem #BCBCBC;
+	margin-top: 0.1rem; 
+	margin: 0 auto;
+}
+main .content .btn span{
+	display: block;
+	height: 0.5rem;
+	font-size: 0.3rem;
+	line-height: 0.65rem;
+	color: white;
+	text-align: center;
+}
+main .content .btn p{
+	display: block;
+	height: 0.5rem;
+	font-size: 0.24rem;
+	color: white;
+	text-align: center;
+}

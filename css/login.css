@@ -1,0 +1,191 @@
+body{
+	width: 100%;
+	background-image: url('../img/background1.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed; 
+}
+header .btn{
+	width: 1.2rem;
+	height: 0.58rem;
+	background-color: white;
+	border-radius: 0.29rem;
+	float: right;
+	margin-right: 0.2rem;
+	font-size: 0.26rem;
+	text-align: center;
+	line-height: 0.58rem;
+	color: #F1AA27;
+	margin-top: 0.2rem;
+}
+
+/* 内容开始 */
+.content{
+	width: calc(100% - 6.3rem);
+	height: 12rem;
+	padding: 5rem 0 0.6rem 0.6rem;
+}
+.content .top{
+	width: 6.3rem;
+	height: 0.3rem;
+}
+.content .top1{
+	width: 0.7rem;
+	height: 0.3rem;
+	background-color: #E24937;
+	float: left;
+}
+.content .top2{
+	width: 0.7rem;
+	height: 0.3rem;
+	background-color: #EAAC40;
+	float: left;
+}
+.content .box{
+	width: 6.3rem;
+	height: 4rem;
+	background-image: url('../img/login-bg.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.content .box .text{
+	width: 100%;
+	height: 1rem;
+	position: relative;
+}
+.content .box .text img{
+	width: 0.4rem;
+	height: 0.4rem;
+/* 	float: left; */
+	position: absolute;
+	top: 0.3rem;
+	left: 1.6rem;
+}
+.content .box .text span{
+	width: 2.3rem;
+	height: 1rem;
+	line-height: 1rem;
+	font-size: 0.5rem;
+	color: #F1AA27;
+	text-align: center;
+	position: absolute;
+	left: 2rem;
+}
+.content .box ul{
+	width: 3.8rem;
+	height: 1.64rem;
+	margin: 0 auto;
+}
+.content .box ul li{
+	width: 3.8rem;
+	height: 0.7rem;
+	background-color: white;
+	border-radius: 0.35rem;
+	margin-bottom: 0.2rem; 
+	/* margin-left: 1.25rem; */
+	position: relative;
+}
+.content .box ul li:nth-child(2){
+	margin-bottom: 0;
+}
+.content .box  ul li input{
+	width: 2.5rem;
+	height: 0.7rem;
+	background-color: white;
+	margin: 0 auto;
+	border: none;
+	position: absolute;
+	top: 0;
+	left: 0.72rem;
+	float: left;
+}
+input::-webkit-input-placeholder{
+	font-size: 0.26rem;
+	color: #F1AA27;
+	margin-left: 0.1rem;
+	text-align: center;
+}
+.content .box  ul li .img1{
+	width: 0.34rem;
+	height: 0.45rem;
+	position: absolute;
+	top: 0.12rem;
+	left: 0.24rem;
+}
+.content .box  ul li .img2{
+	width: 0.36rem;
+	height: 0.26rem;
+	position: absolute;
+	right: 0.24rem;
+	top: 0.22rem;
+}
+.content .box .password{
+	width: 100%;
+	height: 0.3rem;
+}
+.content .box .password span{
+	font-size: 0.2rem;
+	color: #F1AA27;
+	text-align: right;
+	float: left;
+	margin-top: 0.05rem;
+}
+.content .box .password img{
+	width: 0.3rem;
+	height: 0.28rem;
+	margin-left: 1.5rem;
+	margin-right: 0.1rem;
+	margin-top: 0.05rem;
+	float: left;
+}
+.content .box .word{
+	width: 100%;
+	height: 0.3rem;
+}
+.content .box .word span{
+	font-size: 0.22rem;
+	color: #F1AA27;
+	text-align: right;
+	float: right;/* 
+	margin-top: 0.01rem; */
+}
+.content .box .word img{
+	width: 0.24rem;
+	height: 0.28rem;
+	margin-left: 0.4rem;
+	float: left;
+}
+.content .box .btn{
+	width: 1.6rem;
+	height: 0.54rem;
+	margin: 0 auto;
+	margin-top: 0.1rem;
+	border-radius: 0.27rem;
+	background-color: white;
+	line-height: 0.54rem;
+	font-size: 0.3rem;
+	color: #E7322B;
+	text-align: center;
+}
+/* 内容结束 */
+
+
+/* 底部开始 */
+footer{
+	width: calc(100% - 4rem);
+	height: 1rem;
+	display: flex;
+	justify-content: space-between;
+	margin-left: 2rem;
+}
+footer .icon{
+	width: 0.7rem;
+	height: 0.7rem;
+	
+}
+footer .icon img{
+	width: 0.72rem;
+	height: 0.7rem;
+}

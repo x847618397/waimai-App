@@ -1,0 +1,476 @@
+@media screen and (min-width:360px){
+	html{
+		font-size: calc(360/750*100px)
+	}
+}
+@media screen and (min-width:375px){
+	html{
+		font-size: calc(375/750*100px)
+	}
+}
+@media screen and (min-width:412px){
+	html{
+		font-size: calc(412/750*100px)
+	}
+}
+@media screen and (min-width:750px){
+	html{
+		font-size: calc(750/750*100px)
+	}
+}
+@media screen and (min-width:768px){
+	html{
+		font-size: calc(768/750*100px)
+	}
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+	/* 清除默认样式 */
+	outline: none;
+}
+i{
+	font-style: normal;
+}
+/* 顶部开始 */
+header{
+	width: 100%;
+	height: 0.9rem;
+	background-color: #F9AE26;
+}
+header .left{
+	height: 100%;
+	width: 0.88rem;
+	float: left;
+	line-height: 1.22rem;
+	background-image:url("../img/list.png");
+	background-repeat: no-repeat;
+	background-size: 0.46rem 0.4rem;
+	background-position: 0.42em center;
+}
+header .center{
+	height: 100%;
+	width: 4.68rem;
+	float: left;
+	position: relative;
+}
+header .center .img1{
+	width: 0.32rem;
+	height: 0.32rem;
+	float: left;
+	position: absolute;
+	top: 0.28rem;
+	left: 0.44rem;
+}
+header .center .img2{
+	width: 0.22rem;
+	height: 0.32rem;
+	float: right;
+	position: absolute;
+	top: 0.28rem;
+	right: 0.12rem;
+}
+header .center input{
+	float: right;
+	height: 0.42rem;
+	width: 4.32rem;
+	border-radius: 0.12rem;
+	border: none;
+	margin: 0.23rem 0 0 0.23rem;
+	background-color: white;
+	outline: none;
+	font-size: 0.24rem;
+	color: #F9BF6B;
+	padding-left: 0.56rem;
+	overflow: hidden;
+}
+
+input::-webkit-input-placeholder{
+	color: #F9BF6B;
+	
+}
+header .right{
+	width: 1.94rem;
+	height: 100%;
+	float: right;
+	line-height: 45px;
+}
+header .right .img3{
+	width: 0.46rem;
+	height: 0.46rem;
+	float: left;
+	margin-top: 0.2rem;
+	margin-left: 0.34rem;
+}
+header .right .img4{
+	width: 0.46rem;
+	height: 0.46rem;
+	float: right;
+	margin-top: 0.2rem;
+	margin-right: 0.34rem;
+}
+/* 顶部结束 */
+
+/* 导航开始 */
+nav{
+	height: 7.2rem;
+	width: 100%;
+}
+nav .banner{
+	width: 100%;
+	height: 3.44rem;
+}
+.swiper-container{
+    width: 100%;
+    height: 3.34rem;
+}
+.swiper-container img{
+	width: 100%;
+	height: 100%;
+}
+.swiper-pagination-bullet{
+	width: 0.14rem;
+	height: 0.14rem;
+}
+.swiper-pagination-bullet-active{
+	background: #F9AE26;
+}
+nav main{
+	padding: 0 0.24rem;
+}
+nav main .icon{
+	width: 100%;
+	height: 3.72rem;
+}
+nav main .icon ul{
+	display: flex;
+	/* 设置排列方式为 */
+	flex-direction: row;
+	/* 自动换行，默认为nowrap不换行 */
+	flex-wrap: wrap;
+	/* 设置子元素的对齐方式 */
+	justify-content: space-around;
+	align-content: space-around;
+}
+nav main .icon ul li{
+	width: 1.16rem;
+	height: 1.46rem;
+	margin-top: 0.2rem;
+	margin-bottom: 0.2rem;
+	
+	/* 定义 */
+
+}
+nav main .icon ul li img{
+	width: 1.16rem;
+	height: 1.16rem;
+	display: flex;
+
+	/* 定义主轴上的排列方式 */
+	justify-content: space-around;
+	align-items: center;
+}
+nav main .icon ul li h5{
+	font-size: 0.26rem;
+	font-weight: normal;
+	margin-top: 0.08rem;
+	display: flex;
+	/* 定义主轴上的排列方式 */
+	justify-content: space-around;
+	align-items: center;
+}
+/* 导航结束 */
+
+/* 广告开始 */
+.advert{
+	width: 100%;
+	height: 4.1rem;
+}
+.advert .content{
+	padding: 0 0.24rem;
+}
+.advert .content .title{
+	width: 100%;
+	height: 1rem;
+	display: flex;
+	/* 定义主轴上的排列方式 */
+	justify-content: center;
+	align-items: center;
+	padding-top: 0.1rem;
+	overflow: hidden;
+}
+.advert .content .title .title1{
+	width: 5.16rem;
+	height: 1rem;
+	text-align: center;
+}
+.advert .content .advert{
+	width: 100%;
+	height: 3.08rem;
+	display: flex;
+	/* 定义主轴上的排列方式 */
+	justify-content: space-between;
+	position: relative;
+	padding-top: 0.2rem;
+	overflow: hidden;
+}
+.advert .content .advert .advert1{
+	width: 50%;
+	height: 100%;
+}
+.advert .content .advert .advert2{
+	width: 50%;
+	height: 50%;
+}
+.advert .content .advert .advert3{
+	width: 50%;
+	height: 50%;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+/* 广告结束 */
+
+/* 内容开始 */
+.list{
+	width: 100%;
+	height: 13.3rem;
+	padding-top: 0.2rem;
+	overflow: hidden;
+}
+.list .content{
+	padding: 0 0.24rem;
+}
+.list .content .title{
+	width: 100%;
+	height: 1rem;
+	display: flex;
+	/* 定义主轴上的排列方式 */
+	justify-content: center;
+	align-items: center;
+}
+.list .content .title .title2{
+	width: 5.16rem;
+	height: 1rem;
+	text-align: center;
+}
+/* 筛选开始 */
+.list .content .screen{
+	width: 100%;
+	height: 1rem;
+	display: flex;
+	/* 定义主轴上的排列方式 */
+	justify-content: space-around;
+	align-items: center;
+}
+.list .content .screen .type{
+	width: 1.4rem;
+	height: 0.48rem;
+	font-size: 0.24rem;
+	font-weight: bold;
+	line-height: 0.4rem;
+	text-align: center;
+	color: #F02B25;
+	border: 0.03rem solid #FACA70;
+	border-radius: 0.24rem;
+}
+/* 店铺开始 */
+.list .content ul li{
+	width: 100%;
+	height: 2.32rem;
+	box-shadow: 0 0.1rem 0.3rem #FCD0C2;
+	margin-bottom: 0.2rem;
+	overflow: hidden;
+}
+.list .content ul li .picture {
+	width: 1.96rem;
+	height: 1.96rem;
+	float: left;
+/* 	display: flex;
+	justify-content: center;
+	align-items: center; */
+	padding-top: 0.24rem;
+	overflow: hidden;
+}
+.list .content ul li .picture img{
+	width: 1.96rem;
+	height: 1.96rem;
+	padding-left: 0.24rem;
+	overflow: hidden;
+}
+.list .content ul li .message{
+	width: 4.4rem;
+	height: 1.98rem;
+	float: right;
+	font-size: 0.2rem;
+	color: #585858;
+	padding-top: 0.24rem;
+	overflow: hidden;
+}
+.list .content ul li .message .name{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.list .content ul li .message .name h6{
+	font-size: 0.28rem;
+	color: #000000;
+	margin-bottom: 0.06rem;
+	text-align: left;
+}
+.list .content ul li .message .name h4{
+	font-size: 0.28rem;
+	color: #FFF120;
+	margin-bottom: 0.06rem;
+	margin-right: 0.8rem;
+}
+.list .content ul li .message p{
+	float: left;
+	margin-right: 0.4rem;
+	margin-bottom: 0.06rem;
+}
+.list .content ul li .message .text{
+	width: 3.8rem;
+	height: 0.3rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	margin-bottom: 0.06rem;
+	font-size: 0.2rem;
+	font-weight: normal;
+	margin-right: 0;
+}
+.list .content ul li .message .text span{
+	width: 100%;
+}
+/* .list .content ul li .message .text h3{
+	width: 2.8rem;
+	height: 0.28rem;
+	
+} */
+.list .content ul li .message .money{
+	width: 100%;
+	height: 0.3rem;
+	margin-right: 0.26rem;
+}
+.list .content ul li .message .manjian{
+	height: 0.3rem;
+	width: 4rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.list .content ul li .message .manjian .box{
+	width: 1.2rem;
+	height: 0.3rem;
+	font-size: 0.2rem;
+	color: #F02B25;
+	line-height: 0.3rem;
+	text-align: center;
+	border: 0.02rem solid #FACA70;
+	border-radius: 0.15rem;
+
+}
+.list .content ul li .message .manjian p{
+	width: 1.2rem;
+	text-align: center;
+	margin: 0;
+}
+.list .content ul li .message .special h2{
+	width: 1rem;
+	text-align: center;
+	margin: 0;
+	color: #F02B25;
+}
+.list .content ul li .message .special{
+	height: 0.3rem;
+	width: 4rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	line-height: 0.3rem;
+}
+.list .content ul li .message .special .box{
+	width: 1.2rem;
+	height: 0.28rem;
+	font-size: 0.2rem;
+	color: #F02B25;
+	line-height: 0.3rem;
+	text-align: center;
+	border: 0.02rem solid #FACA70;
+	border-radius: 0.15rem;
+
+}
+.list .content ul li .message .special p{
+	width: 1.3rem;
+	text-align: center;
+	margin: 0;
+}
+
+.list .content ul li .message .adress{
+	width: 0.8rem;
+	height: 0.28rem;
+	text-align: center;
+	font-size: 0.2rem;
+	color: #FFF120;
+	line-height: 0.28rem;
+
+}
+.list .content ul li .message .adress img{
+	width: 0.13rem;
+	height: 0.18rem;
+	margin-right: 0.04rem;
+}
+
+/* 标签栏开始 */
+footer{
+	width: 100%;
+	height: 1rem;
+	background-color: white;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: fixed;
+	bottom: 0;
+	margin: 0 auto;
+	border-top: 0.08rem solid #FDE0D7;
+}
+footer .icon{
+	width: 100%;
+	height: 1rem;
+}
+footer .icon ul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: space-around;
+}
+footer .icon ul li{
+	width: 0.5rem;
+	height: 0.52rem;
+	margin-top: 0.1rem;
+}
+footer .icon ul li img{
+	width: 0.5rem;
+	height: 0.52rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+footer .icon ul li h5{
+	font-size: 0.22rem;
+	font-weight: normal;
+	color: #000;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 0.04rem;
+}
+/* 标签栏结束 */
